@@ -1,7 +1,7 @@
 # WebScrapingProject
 ## webscraping.py
 Crawl IMDB list of Most popular by Genre (http://www.imdb.com/genre/?ref_=nv_ch_gr_3).
-  - Call getMovieTitlesByGenres(genre, no. of movie) to get a <list of movie ids>
+  - Call getMovieTitlesByGenres(genre, no. of movie) to get a list of movie ids
   - Call getMovieAttributes(list of movie ids) to get a list of Movie object including movie attributes(title, rating, datePublished, year, directors...). Each movie contains a list of Review object including review attributes(title, author, date, rating, useful rating, content...)
   - Save in JSON format
 
